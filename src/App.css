@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+	.container-1 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.container-2 {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.container-3 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.container-4 {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.container-5 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.container-6 {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+.box-1, .box-2 {
+	flex-basis: 50%;
+    margin: 1rem;
+}
+
+.box-3 {
+	flex: 1;
+}
+
+.box-4 {
+	flex: 1;
+}
+
+.box-refresh {
+	flex: 1;
+}
+
+.box-limit {
+	flex: 1;
+}
+
+.box-market {
+	flex: 1;
+}
+
+/* ======= TABS ========= */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.bloc-tabs {
+	display: flex;
+}
+
+.tabs {
+	padding: 15px;
+	text-align: center;
+	width: 50%;
+	background: rgba(128, 128, 128, 0.075);
+	color: #86868a;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+	box-sizing: content-box;
+	position: relative;
+	outline: none;
+}
+.tabs:not(:last-child) {
+	border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+	background: #1d1f21;
+	color: #beccda;
+	border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% + 2px);
+	height: 5px;
+	background: rgb(255, 165, 0);
+}
+
+button {
+	border: none;
+}
+.content-tabs {
+	flex-grow: 1;
+}
+
+.content {
+	background: #1d1f21;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.content h2 {
+	padding: 0px 0 5px 0px;
+}
+
+.content hr {
+	width: 100px;
+	height: 2px;
+	background: #222;
+	margin-bottom: 5px;
+}
+
+.content p {
+	width: 100%;
+	height: 100%;
+}
+.active-content {
+	display: block;
+}
+
+.form-control {
+	background: #282828;
+	border: 1px solid #444;
+	border-radius: 4px;
+	color: #ddd;
+}
+.form-control:focus {
+	background: #333;
+	border: 1px solid #666;
+	border-radius: 4px;
+	color: white;
+}
