@@ -31,5 +31,7 @@ secret.json
 
 #Hardhat files
 cache
+/src/artifacts
 #artifacts
 
+package-lock.json

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import BirdToken from "./artifacts/contracts/Tokens.sol/BirdToken.json";
-import WethToken from "./artifacts/contracts/Tokens.sol/WethToken.json";
+import WethToken from "./artifacts/contracts/Tokens.sol/WETH.json";
 import 'bootswatch/dist/slate/bootstrap.min.css';
 import TxList from './components/Transactions/TxList.jsx';
 import Dex from "./artifacts/contracts/Dex.sol/Dex.json";
@@ -47,9 +47,9 @@ text-decoration: none;
 
 // localhost test net
 
-const tokenContractAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
-// const wethContractAddress = "";
-const dexContractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const tokenContractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const wethContractAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+const dexContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 function App() {
   //const [contractAddress, setContractAddress] = useState("-");
@@ -79,8 +79,8 @@ function App() {
       setTokenContract(token);
       //console.log("token:", token);
 
-      // const weth = getContract(wethContractAddress, WethToken.abi, library, account);
-      // setTokenContract(weth);
+      const weth = getContract(wethContractAddress, WethToken.abi, library, account);
+      setTokenContract(weth);
 
       const dex = getContract(dexContractAddress, Dex.abi, library, account);
       setDexContract(dex);
