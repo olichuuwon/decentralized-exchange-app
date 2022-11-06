@@ -2,7 +2,7 @@
 final updated version
 
 ## task
-build a minimal viable decentralized exchange (dex) on ethereum and a simple (minimally styled) front-end website, which supports listing of available asset tokens on the marketplace, submission of trading order, matching and execution of orders (i.e. swapping/exchanging/trading assets), and most importantly, in our dex, users have the ultimate control of his/her own digital assets.
+build a minimal viable decentralized exchange (dex) on ethereum and a simple (minimally styled) front-end website, which supports listing of available asset tokens on the marketplace, submission of trading order, matching and execution of orders (i.e. swapping/exchanging/trading assets), and most importantly, in our dex, users have the ultimate control of his/her own digital assets
 
 ## set up metamask
 1. login
@@ -34,6 +34,6 @@ this will start the web app, make sure you have changed into the addresses of th
 
 ## demo 
 - i sound so done with life its actually hilarious
-- i am not done with life but i am just unwell thank you for your kind understanding 
+- i am not done with life but i am just pretty unwell thank you for your kind understanding 
 - https://youtu.be/ZJs-6lsv14E
 
