@@ -26,9 +26,9 @@ this will run the hardhat node which is the local blockchain
 add the first two addresses into metamask (import account) to simulate alice and bob
 2. "npm run contracts"
 this command will deploy the contracts in the network if you have not done so already, the contracts will be mapped to various addresses like seen below:
-const tokenContractAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
-const dexContractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
-these constants need to be updated in src/app.js
+- const tokenContractAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+- const dexContractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+- these constants need to be updated in src/app.js
 3. "npm run start"
 this will start the web app
 make sure you have changed into the addresses of the hardhat nodes stated in step 1, and thereafter you can connect into the webapp
