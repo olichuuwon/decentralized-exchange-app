@@ -6,7 +6,7 @@ describe("Market Test", () => {
   let Dex, dex, Bird, bird, owner, addr1, addr2, addr3, addr4;
 
   beforeEach(async () => {
-    Dex = await ethers.getContractFactory("JeslynDex");
+    Dex = await ethers.getContractFactory("Dex");
     dex = await Dex.deploy();
 
     Bird = await ethers.getContractFactory("BirdToken");

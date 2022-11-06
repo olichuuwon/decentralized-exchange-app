@@ -5,7 +5,7 @@ describe("Wallet Test", function () {
   let Dex, dex, Bird, bird, owner, addr1, addr2;
 
   beforeEach(async () => {
-    Dex = await ethers.getContractFactory("JeslynDex");
+    Dex = await ethers.getContractFactory("Dex");
     dex = await Dex.deploy();
 
     Bird = await ethers.getContractFactory("BirdToken");
