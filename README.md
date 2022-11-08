@@ -34,6 +34,11 @@ this will start the web app, make sure you have changed into the addresses of th
 
 ## demo 
 - i sound so done with life its actually hilarious
-- i am not done with life but i am just pretty unwell thank you for your kind understanding 
+- i am not done with life but i am just pretty unwell 
+- thank you for your kind understanding 
 - https://youtu.be/ZJs-6lsv14E
+
+## will improve and work on project more when i have time 
+
+
 
