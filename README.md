@@ -31,14 +31,3 @@ this command will deploy the contracts in the network if you have not done so al
 3. "npm run start"
 this will start the web app, make sure you have changed into the addresses of the hardhat nodes stated in step 1, and thereafter you can connect into the webapp by clicking the webapp's connect button
 4. enjoy
-
-## demo 
-- i sound so done with life its actually hilarious
-- i am not done with life but i am just pretty unwell 
-- thank you for your kind understanding 
-- https://youtu.be/ZJs-6lsv14E
-
-## will improve and work on project more when i have time 
-
-
-
